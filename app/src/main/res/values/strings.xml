@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">shop</string>
+    <string name="app_name">Jeench</string>
+    <string name="loading_shops">Loading shops ...</string>
+    <string name="shop_name">Name of the shop</string>
+    <string name="loading_shop">Loading Shop ...</string>
+    <string name="line_1">line 1</string>
+    <string name="line_2">line 2</string>
+    <string name="line_3">line 3</string>
+    <string name="shop_description">line 3</string>
+    <string name="shop_currency">line 3</string>
+    <string name="item_price">line 3</string>
+    <string name="item_comments">line 3</string>
+    <string name="item_bonus_amount">line 3</string>
+    <string name="shop_list">Shop list</string>
+
+
 </resources>
