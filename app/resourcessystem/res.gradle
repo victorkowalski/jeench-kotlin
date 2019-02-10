@@ -1,0 +1,4 @@
+ext {
+    app = [ "src/main/res-features/app"]
+    main = [ "src/main/res-features/main"]
+}

@@ -2,6 +2,10 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
+//custom resources folders
+apply from: 'resourcessystem/res.gradle'
+def resources = [ext.app, ext.main]
+
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -16,6 +20,12 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+            res.srcDirs = [resources]
         }
     }
 }

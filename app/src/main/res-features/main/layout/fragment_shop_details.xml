@@ -5,7 +5,7 @@
 
     <data>
         <variable name="isLoading" type="boolean" />
-        <variable name="shopViewModel" type="com.victor.ko.jeench.viewmodel.ShopViewModel"/>
+        <variable name="shopViewModel" type="com.victor.ko.shop.viewmodel.ShopViewModel"/>
     </data>
 
     <FrameLayout
