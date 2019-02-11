@@ -1,4 +1,4 @@
-package com.victor.ko.shop.main.view
+package com.victor.ko.shop.home.view
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity

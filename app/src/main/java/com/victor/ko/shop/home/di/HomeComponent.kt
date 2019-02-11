@@ -2,7 +2,7 @@ package com.victor.ko.shop.home.di
 
 import com.victor.ko.shop.app.di.scopes.PerScreen
 import com.victor.ko.shop.home.HomeModule
-import com.victor.ko.shop.main.view.HomeActivity
+import com.victor.ko.shop.home.view.HomeActivity
 import dagger.Subcomponent
 
 @PerScreen
